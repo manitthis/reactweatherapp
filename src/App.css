@@ -1,0 +1,42 @@
+.app {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to top right, #a8edea, #fed6e3);
+  min-height: 100vh;
+}
+
+input {
+  padding: 0.5rem;
+  width: 200px;
+  margin-right: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #4fc3f7;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #039be5;
+}
+
+.card {
+  margin-top: 2rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
